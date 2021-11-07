@@ -66,7 +66,6 @@ ul a {
   color: white;
 }
 
-
 li:hover {
   background-color: #050f1d;
   color: #5b9cf2;
@@ -106,7 +105,6 @@ main {
   height: 90px;
 }
 
-
 .buttonjaco {
   color: white;
   font-size: 20px;
@@ -115,7 +113,9 @@ main {
   display: inline;
 }
 
-.buttonimg {margin-top: -40px;}
+.buttonimg {
+  margin-top: -40px;
+}
 
 .linkrobotarm:hover {
   background-color: #050f1d;
@@ -153,7 +153,6 @@ main {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
- 
 }
 
 .sectiongearrobot {
@@ -196,7 +195,6 @@ main {
   width: 652px;
   height: 90px;
   font-size: 25px;
-  
 }
 
 .linkprothese:hover {
@@ -224,7 +222,6 @@ main {
   height: 243px;
   width: 683px;
   padding-left: 120px;
-  
 }
 
 .buttonprothese {
@@ -276,13 +273,12 @@ main {
 }
 
 .geardrone {
-    height: 400px;
-    width: 400px;
-    padding-left: 20px;
-    float: left;
-    position: relative;
-  }
-  
+  height: 400px;
+  width: 400px;
+  padding-left: 20px;
+  float: left;
+  position: relative;
+}
 
 .gearmedicijn:hover {
   transform: rotate(360deg);
@@ -334,14 +330,13 @@ main {
   width: 652px;
   height: 90px;
 }
-.buttonmedicijn{
+.buttonmedicijn {
   color: white;
   font-size: 20px;
   font-family: "Orbitron", sans-serif;
   font-weight: 500;
   display: inline;
 }
-
 
 .linkdrones:hover {
   background-color: #050f1d;
@@ -362,17 +357,18 @@ main {
   height: 450px;
 }
 
-.geardonkerlinks{
+.geardonkerlinks {
   float: left;
   left: 200px;
   top: 200px;
   position: absolute;
-  transition: 2s linear;}
+  transition: 2s linear;
+}
 
 .geardonkerlinks:hover {
   transform: rotate(360deg);
 }
-.gearneutraallinks{
+.gearneutraallinks {
   float: left;
   position: absolute;
   top: 100px;
@@ -442,155 +438,202 @@ main {
   position: relative;
 }
 
-.buttonmore { margin-top: 230px;
-           width: 60px;
-           height: 60px; 
-           }
+.buttonmore {
+  margin-top: 230px;
+  width: 60px;
+  height: 60px;
+}
 
-.viewmore {margin-left: 550px;
-           margin-top: -40px;  
-           color: white;
-           font-size: 30px;
-           font-family: "Orbitron", sans-serif;
-           font-weight: 500; 
-          }
+.viewmore {
+  margin-left: 550px;
+  margin-top: -40px;
+  color: white;
+  font-size: 30px;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 500;
+}
 
 .viewmore a:hover {
-            background-color: #050f1d;
-            color: #5b9cf2;
-          }
-
-.viewmore a {color: white;}
-
-.clear {clear: both;}
-
-.artikelpagina {width: 1092px;
-                text-align: justify;
-                line-height: 1.4;
-                letter-spacing: 0.1em;}
-
-.titelartikel {font-size: 31px;
-          padding-bottom: 30px;
-          text-align: center;
-          padding-top: 30px;
-          float: none;
-          font-family: "Orbitron", sans-serif;
-          font-weight: 700;
-          color: #5b9cf2;
-          text-shadow: 5px 5px 5px #27496b;
+  background-color: #050f1d;
+  color: #5b9cf2;
 }
 
-.inleiding {font-size: 18px;
-             font-family: Verdana, Geneva, Tahoma, sans-serif;
-             color: white;
-             font-weight: bold;
-             padding-bottom: 30px;}
-
-h2 {font-size: 35px;
-    font-family: "Orbitron", sans-serif;
-    color: #5B7EF2;
-    font-weight: 700;
-    padding-top: 30px;
-    text-align: center;}
-             
-.intro {font-size: 18px;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      color: white;
-      font-weight:bold;
-      padding-bottom: 30px;
-      padding-top: 15px;
-      text-align: justify;}
-
-h3 {font-size: 32px;
- font-weight: 700;
- color: #5B7EF2;
- font-family: "Orbitron", sans-serif;
- padding-bottom: 15px;
- padding-top: 30px;
- text-align: center;}   
-   
-h4 {font-size: 25px;
-    font-weight: 700;
-    color: #5B7EF2;
-    font-family: "Orbitron", sans-serif;
-    padding-bottom: 15px;}
-
-p {padding-bottom: 30px;
-         font-size: 18px;
-         font-family: Verdana, Geneva, Tahoma, sans-serif;
-         color: white;}
-
-.paragraafcivilwar {padding-bottom: 15px;
-          font-size: 18px;
-          width: 500px;
-          font-family:Verdana, Geneva, Tahoma, sans-serif;
-          color: white;
-          float: left;}
-
-.civilleg {float: right;
-           width: 170px;
-           height: 390px;}
-
-.box {background-image: url(../img/headerachtergrond.png);
-      height: 100px;
-      background-size: cover;}
-
-
-.prothese {float: left;
-        height: 280px;
-        width: 220px;
-        padding-top: 10px;
-        }
- 
-.egypte {float: left; 
-         display: inline;
-         padding-left: 50px;}
-
-.paragraafegypte {float: left;
-         display: inline;
-         width: 450px;
-         padding-left: 50px;
-         font-family: Verdana, Geneva, Tahoma, sans-serif;
-          color: white;
-         font-size: 18px;}
-
-.clear {clear: both;}
-
-.containerafbakening {width: 720px;
-              margin:0 auto;}
-
-.jos {float: left;
-        display: inline;
-        height: 310px;
-        padding-top: 8px;
+.viewmore a {
+  color: white;
 }
 
-.introjos {float: left;
+.clear {
+  clear: both;
+}
+
+.artikelpagina {
+  width: 1092px;
+  text-align: justify;
+  line-height: 1.4;
+  letter-spacing: 0.1em;
+}
+
+.titelartikel {
+  font-size: 31px;
+  padding-bottom: 30px;
+  text-align: center;
+  padding-top: 30px;
+  float: none;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 700;
+  color: #5b9cf2;
+  text-shadow: 5px 5px 5px #27496b;
+}
+
+.inleiding {
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+h2 {
+  font-size: 35px;
+  font-family: "Orbitron", sans-serif;
+  color: #5b7ef2;
+  font-weight: 700;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.intro {
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-weight: bold;
+  padding-bottom: 30px;
+  padding-top: 15px;
+  text-align: justify;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #5b7ef2;
+  font-family: "Orbitron", sans-serif;
+  padding-bottom: 15px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #5b7ef2;
+  font-family: "Orbitron", sans-serif;
+  padding-bottom: 15px;
+}
+
+p {
+  padding-bottom: 30px;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+.paragraafcivilwar {
+  padding-bottom: 15px;
+  font-size: 18px;
+  width: 500px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  float: left;
+}
+
+.civilleg {
+  float: right;
+  width: 170px;
+  height: 390px;
+}
+
+.box {
+  background-image: url(../img/headerachtergrond.png);
+  height: 100px;
+  background-size: cover;
+}
+
+.prothese {
+  float: left;
+  height: 280px;
+  width: 220px;
+  padding-top: 10px;
+}
+
+.egypte {
+  float: left;
+  display: inline;
+  padding-left: 50px;
+}
+
+.paragraafegypte {
+  float: left;
+  display: inline;
+  width: 450px;
+  padding-left: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-size: 18px;
+}
+
+.clear {
+  clear: both;
+}
+
+.containerafbakening {
+  width: 720px;
+  margin: 0 auto;
+}
+
+.jos {
+  float: left;
+  display: inline;
+  height: 310px;
+  padding-top: 8px;
+}
+
+.introjos {
+  float: left;
   display: inline;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
   width: 390px;
   font-size: 18px;
   padding-bottom: 15px;
-  padding-left: 20px;}
+  padding-left: 20px;
+}
 
-.paragraafcontainer {padding-bottom: 15px;
+.paragraafcontainer {
+  padding-bottom: 15px;
   font-size: 18px;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  color: white;}
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
 
-.civilwar  {padding-bottom: 30px;
-    font-size: 18px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
-   float:left}
+.civilwar {
+  padding-bottom: 30px;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  float: left;
+}
 
-.fotos {float: left;}
+.fotos {
+  float: left;
+}
 
-.avatarintro {float: left;
-              width: 420px;
-              padding-bottom: 15px;}
+.avatarintro {
+  float: left;
+  width: 420px;
+  padding-bottom: 15px;
+}
 
-.exoskelet {float: 	right;
-            padding-top: 60px;
-            }
+.exoskelet {
+  float: right;
+  padding-top: 60px;
+}
